@@ -1,0 +1,112 @@
+.basic-format-div
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+
+    p
+    {        
+        float: left; 
+        margin-left: 20px; 
+        border: 2px solid grey; 
+        padding: 17px;
+        display: inline;
+        font-size: large;
+        font-weight: 350;
+        font-style: italic;
+        text-align: center;
+        background-color: wheat;
+    }
+
+    a
+    {
+        font-size: xx-large;
+        font-weight: bold;
+        font-style: none;
+        padding: 5px 5px 5px 5px;            
+    }
+}
+
+#skills-div
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+
+    ul
+    {
+        border: 3px solid crimson;
+        padding: 6px;
+        background-color: lightgreen;
+        list-style-type: circle;
+        li
+        {
+            display: list-item;
+            list-style-position: inside;
+            font-size: large;
+            font-family: Verdana, Tahoma, sans-serif;
+            margin-bottom: 12px;
+            font-style: italic;
+            font-weight: 350;
+        }
+    }
+}
+
+#contact-div
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+
+    p
+    {        
+        float: left; 
+        margin-left: 20px; 
+        border: 2px solid grey; 
+        padding: 17px;
+        display: inline;
+        font-size: large;
+        font-weight: 350;
+        font-style: italic;
+        text-align: center;
+        background-color: lightcoral;
+        font-weight: bold;
+    }
+
+}
+
+#image-div
+{
+    display: grid;
+    justify-content: center;
+    :hover
+    {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+}
+
+#imgProfilePic
+{
+    src: url(aboutme.jpg);
+    width: 100%;
+    height: 300px;
+    
+    object-fit: fill;
+    margin: 15px;
+    border: 3px solid black;
+}
+
+h2
+{
+    text-align: center; 
+    font-style: italic; 
+    margin: auto; 
+    width: fit-content; 
+    padding: 16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: black;
+    color: white; 
+    font-weight: bold;
+    font-family: cursive;
+}

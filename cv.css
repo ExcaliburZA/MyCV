@@ -1,0 +1,120 @@
+.basic-format-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+}
+
+.basic-format-div p {
+  float: left;
+  margin-left: 20px;
+  border: 2px solid grey;
+  padding: 17px;
+  display: inline;
+  font-size: large;
+  font-weight: 350;
+  font-style: italic;
+  text-align: center;
+  background-color: wheat;
+}
+
+.basic-format-div a {
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: none;
+  padding: 5px 5px 5px 5px;
+}
+
+#skills-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+}
+
+#skills-div ul {
+  border: 3px solid crimson;
+  padding: 6px;
+  background-color: lightgreen;
+  list-style-type: circle;
+}
+
+#skills-div ul li {
+  display: list-item;
+  list-style-position: inside;
+  font-size: large;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin-bottom: 12px;
+  font-style: italic;
+  font-weight: 350;
+}
+
+#contact-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+}
+
+#contact-div p {
+  float: left;
+  margin-left: 20px;
+  border: 2px solid grey;
+  padding: 17px;
+  display: inline;
+  font-size: large;
+  font-weight: 350;
+  font-style: italic;
+  text-align: center;
+  background-color: lightcoral;
+  font-weight: bold;
+}
+
+#image-div {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#image-div :hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  opacity: 0.8;
+}
+
+#imgProfilePic {
+  src: url(aboutme.jpg);
+  width: 100%;
+  height: 300px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin: 15px;
+  border: 3px solid black;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: cursive;
+}
+/*# sourceMappingURL=cv.css.map */
